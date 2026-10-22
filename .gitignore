@@ -1,0 +1,12 @@
+node_modules/
+ios/Pods/
+ios/build/
+**/.xcode.env.local
+**/xcuserdata/
+*.xcuserstate
+.DS_Store
+.bundle/
+vendor/
+.argent/recordings/
+.argent/tmp/
+.argent/

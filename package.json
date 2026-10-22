@@ -1,0 +1,34 @@
+{
+  "name": "react-native-scrollview-recycling-repro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "ios": "react-native run-ios --port 8086",
+    "start": "react-native start --port 8086",
+    "apply-fix": "patch -p1 < patches/react-native.patch",
+    "revert-fix": "patch -R -p1 < patches/react-native.patch"
+  },
+  "dependencies": {
+    "@react-navigation/native": "7.3.18",
+    "@react-navigation/native-stack": "7.18.10",
+    "react": "19.2.3",
+    "react-native": "0.87.1",
+    "react-native-safe-area-context": "5.9.1",
+    "react-native-screens": "4.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "20.2.0",
+    "@react-native-community/cli-platform-ios": "20.2.0",
+    "@react-native/babel-preset": "0.87.1",
+    "@react-native/metro-config": "0.87.1"
+  },
+  "engines": {
+    "node": ">=22.11.0"
+  },
+  "packageManager": "yarn@1.22.22",
+  "resolutions": {
+    "@react-navigation/elements": "2.9.40"
+  }
+}
