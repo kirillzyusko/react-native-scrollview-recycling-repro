@@ -1,0 +1,57 @@
+{
+  "device": "iPhone 16 Pro Simulator",
+  "os": "iOS 18.5",
+  "reactNative": "0.87.1",
+  "react": "19.2.3",
+  "architecture": "Fabric",
+  "xcode": "27.0 (27A266a)",
+  "flags": {
+    "useSharedAnimatedBackend": true,
+    "cxxNativeAnimatedEnabled": true
+  },
+  "nativeAutolinkedDependencies": [
+    "react-native-safe-area-context",
+    "react-native-screens"
+  ],
+  "absentNativeSymbols": [
+    "RNReanimated",
+    "NativeReanimated",
+    "RNWorklets",
+    "KeyboardControllerModule",
+    "KeyboardControllerView"
+  ],
+  "applicationAndLockfilesUnchanged": true,
+  "rnCoreBuiltFromSourceInBothCases": true,
+  "before": {
+    "flowStepsPassed": 24,
+    "flowStepsFailed": 0,
+    "sameInnerViewReused": true,
+    "sameOuterViewReused": true,
+    "reactTagBefore": 218,
+    "reactTagAfter": 426,
+    "innerFrameYAfterReopen": -128.66666666666666,
+    "yellowGapVisible": true
+  },
+  "after": {
+    "flowStepsPassed": 24,
+    "flowStepsFailed": 0,
+    "sameInnerViewReused": true,
+    "sameOuterViewReused": true,
+    "reactTagBefore": 218,
+    "reactTagAfter": 426,
+    "innerFrameYAfterReopen": 0,
+    "yellowGapVisible": false
+  },
+  "excludedAttempt": "Incomplete mouse-driven takes that did not dismiss the screen were excluded. Published videos are full successful uninterrupted replays.",
+  "keyboardLayout": "English (US) in both published recordings",
+  "recordings": {
+    "before": {
+      "file": "before.mp4",
+      "durationMs": 12200
+    },
+    "after": {
+      "file": "after-english.mp4",
+      "durationMs": 11433
+    }
+  }
+}

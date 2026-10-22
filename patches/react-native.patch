@@ -1,0 +1,9 @@
+diff --git a/node_modules/react-native/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm b/node_modules/react-native/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm
+--- a/node_modules/react-native/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm
++++ b/node_modules/react-native/React/Fabric/Mounting/ComponentViews/ScrollView/RCTScrollViewComponentView.mm
+@@ -712,4 +712,5 @@
+   _firstVisibleView = nil;
+   _firstVisibleViewTag = 0;
+   _virtualViewContainerState = nil;
++  _scrollView.frame = self.bounds;
+ }

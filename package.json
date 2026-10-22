@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "ios": "react-native run-ios --port 8086",
-    "start": "react-native start --port 8086"
+    "start": "react-native start --port 8086",
+    "apply-fix": "patch -p1 < patches/react-native.patch",
+    "revert-fix": "patch -R -p1 < patches/react-native.patch"
   },
   "dependencies": {
     "@react-navigation/native": "7.3.18",
